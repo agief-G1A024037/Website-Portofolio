@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Rizky — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">AR<span class="dot">.</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grid-lines"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">👋 Halo, saya</p>
+      <h1 class="hero-name reveal">Alex<br/><span class="outline-text">Rizky</span></h1>
+      <p class="hero-tagline reveal">UI/UX Designer & Front-End Developer</p>
+      <p class="hero-desc reveal">Saya menciptakan pengalaman digital yang indah, fungsional, dan bermakna. Berbasis di Jakarta, Indonesia.</p>
+      <div class="hero-cta reveal">
+        <a href="portfolio.html" class="btn btn-primary">Lihat Karya</a>
+        <a href="contact.html" class="btn btn-ghost">Hubungi Saya</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="avatar-ring">
+        <div class="avatar-img">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="100" cy="80" r="45" fill="var(--accent)"/>
+            <ellipse cx="100" cy="175" rx="65" ry="40" fill="var(--accent)"/>
+          </svg>
+        </div>
+      </div>
+      <div class="floating-badge badge-1">✦ Open to Work</div>
+      <div class="floating-badge badge-2">🎨 UI/UX</div>
+      <div class="floating-badge badge-3">⚡ React</div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SKILLS MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <span>HTML &amp; CSS</span><span class="sep">✦</span>
+      <span>JavaScript</span><span class="sep">✦</span>
+      <span>React.js</span><span class="sep">✦</span>
+      <span>Figma</span><span class="sep">✦</span>
+      <span>UI/UX Design</span><span class="sep">✦</span>
+      <span>Node.js</span><span class="sep">✦</span>
+      <span>Tailwind CSS</span><span class="sep">✦</span>
+      <span>Git &amp; GitHub</span><span class="sep">✦</span>
+      <span>HTML &amp; CSS</span><span class="sep">✦</span>
+      <span>JavaScript</span><span class="sep">✦</span>
+      <span>React.js</span><span class="sep">✦</span>
+      <span>Figma</span><span class="sep">✦</span>
+      <span>UI/UX Design</span><span class="sep">✦</span>
+      <span>Node.js</span><span class="sep">✦</span>
+      <span>Tailwind CSS</span><span class="sep">✦</span>
+      <span>Git &amp; GitHub</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- FEATURED WORK -->
+  <section class="section featured">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Karya Terpilih</p>
+        <h2 class="section-title">Proyek <span class="accent">Terbaik</span></h2>
+      </div>
+      <div class="featured-grid">
+        <div class="project-card large" data-tilt>
+          <div class="card-img" style="background: linear-gradient(135deg,#1a1a2e,#16213e)">
+            <div class="card-mockup">
+              <div class="browser-bar"><span></span><span></span><span></span></div>
+              <div class="browser-content">
+                <div class="mock-nav"></div>
+                <div class="mock-hero"></div>
+                <div class="mock-cards"><div></div><div></div><div></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags"><span>UI/UX</span><span>React</span></div>
+            <h3>Dashboard Analytics</h3>
+            <p>Platform analitik real-time untuk bisnis e-commerce dengan visualisasi data interaktif.</p>
+            <a href="portfolio.html" class="card-link">Lihat Detail →</a>
+          </div>
+        </div>
+        <div class="project-card" data-tilt>
+          <div class="card-img" style="background: linear-gradient(135deg,#0f2027,#203a43,#2c5364)">
+            <div class="card-icon">📱</div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags"><span>Mobile</span><span>Figma</span></div>
+            <h3>FoodieGo App</h3>
+            <p>Aplikasi pesan antar makanan dengan UX yang intuitif.</p>
+            <a href="portfolio.html" class="card-link">Lihat Detail →</a>
+          </div>
+        </div>
+        <div class="project-card" data-tilt>
+          <div class="card-img" style="background: linear-gradient(135deg,#1d0b3f,#3d1a78)">
+            <div class="card-icon">🛒</div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags"><span>E-Commerce</span><span>Next.js</span></div>
+            <h3>ShopNest</h3>
+            <p>Platform belanja online modern dengan fitur AI-powered recommendation.</p>
+            <a href="portfolio.html" class="card-link">Lihat Detail →</a>
+          </div>
+        </div>
+      </div>
+      <div class="center-btn">
+        <a href="portfolio.html" class="btn btn-outline">Semua Proyek →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-num" data-count="24">0</span>
+          <span class="stat-label">Proyek Selesai</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-count="18">0</span>
+          <span class="stat-label">Klien Puas</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-count="3">0</span>
+          <span class="stat-label">Tahun Pengalaman</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-count="5">0</span>
+          <span class="stat-label">Penghargaan</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Punya proyek menarik?</h2>
+        <p>Mari berkolaborasi dan wujudkan ide digitalmu bersama saya.</p>
+        <a href="contact.html" class="btn btn-primary">Mulai Percakapan ✉</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="nav-logo">AR<span class="dot">.</span></span>
+        <p>© 2025 Alex Rizky. Dibuat dengan ❤️ di Jakarta.</p>
+        <div class="social-links">
+          <a href="#" aria-label="GitHub">GH</a>
+          <a href="#" aria-label="LinkedIn">LI</a>
+          <a href="#" aria-label="Instagram">IG</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

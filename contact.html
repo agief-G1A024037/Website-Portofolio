@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Alex Rizky</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">AR<span class="dot">.</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+    <div class="container">
+      <p class="page-tag reveal">Mari Berbicara</p>
+      <h1 class="page-title reveal">Hubungi <span class="accent">Saya</span></h1>
+    </div>
+  </section>
+
+  <section class="section contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- LEFT: Info -->
+        <div class="contact-info reveal">
+          <h2>Ada proyek di benakmu?</h2>
+          <p>Saya selalu terbuka untuk diskusi tentang proyek baru, peluang kreatif, atau kesempatan menjadi bagian dari visi Anda.</p>
+
+          <div class="contact-cards">
+            <div class="contact-card">
+              <span class="cc-icon">📧</span>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:alex@email.com">alex@email.com</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <span class="cc-icon">📍</span>
+              <div>
+                <strong>Lokasi</strong>
+                <span>Jakarta, Indonesia</span>
+              </div>
+            </div>
+            <div class="contact-card">
+              <span class="cc-icon">💼</span>
+              <div>
+                <strong>Status</strong>
+                <span class="status-badge">✦ Available for Work</span>
+              </div>
+            </div>
+            <div class="contact-card">
+              <span class="cc-icon">⏰</span>
+              <div>
+                <strong>Response Time</strong>
+                <span>Dalam 24 jam</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-stack">
+            <p>Temukan saya di:</p>
+            <div class="social-btns">
+              <a href="#" class="social-btn"><span>GitHub</span></a>
+              <a href="#" class="social-btn"><span>LinkedIn</span></a>
+              <a href="#" class="social-btn"><span>Instagram</span></a>
+              <a href="#" class="social-btn"><span>Dribbble</span></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Form -->
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Nama Lengkap</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="john@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="">Pilih topik...</option>
+                <option>Proyek UI/UX Design</option>
+                <option>Proyek Web Development</option>
+                <option>Kolaborasi</option>
+                <option>Lainnya</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="5" placeholder="Ceritakan proyekmu..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width" id="submit-btn">
+              <span id="btn-text">Kirim Pesan ✉</span>
+            </button>
+          </form>
+          <div class="form-success" id="form-success" hidden>
+            <div class="success-icon">✅</div>
+            <h3>Pesan Terkirim!</h3>
+            <p>Terima kasih! Saya akan menghubungi kamu dalam 24 jam.</p>
+            <button class="btn btn-outline" onclick="resetForm()">Kirim Pesan Lain</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP PLACEHOLDER -->
+  <section class="map-section">
+    <div class="map-placeholder">
+      <div class="map-pin">📍</div>
+      <p>Jakarta, Indonesia</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="nav-logo">AR<span class="dot">.</span></span>
+        <p>© 2025 Alex Rizky. Dibuat dengan ❤️ di Jakarta.</p>
+        <div class="social-links">
+          <a href="#" aria-label="GitHub">GH</a>
+          <a href="#" aria-label="LinkedIn">LI</a>
+          <a href="#" aria-label="Instagram">IG</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
