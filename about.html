@@ -3,33 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About — Alex Rizky</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <title>About — Agief Vemas Afrivanzah</title>
+  <meta name="description" content="Pelajari lebih lanjut tentang Agief Vemas Afrivanzah — latar belakang, pendidikan, keahlian, dan pengalaman organisasinya." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
 </head>
 <body>
   <nav class="nav" id="nav">
-    <a href="index.html" class="nav-logo">AR<span class="dot">.</span></a>
+    <a href="index.html" class="nav-logo">AV<span class="dot">.</span></a>
     <button class="hamburger" id="hamburger" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links" id="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html" class="active">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="portofolio.html">Portfolio</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 
   <!-- PAGE HEADER -->
-  <section class="page-hero">
+  <section class="page-hero" style="min-height:320px;display:flex;align-items:flex-end;background:linear-gradient(160deg,#e8f0ff 0%,#f0f6ff 60%,#f8fbff 100%);position:relative;overflow:hidden;">
+    <!-- Decorative shapes -->
+    <div style="position:absolute;top:-60px;right:-60px;width:300px;height:300px;border-radius:50%;background:linear-gradient(135deg,rgba(37,99,235,0.12),rgba(96,165,250,0.08));pointer-events:none;"></div>
+    <div style="position:absolute;bottom:-40px;left:10%;width:180px;height:180px;border-radius:50%;background:rgba(37,99,235,0.06);pointer-events:none;"></div>
     <div class="hero-bg">
       <div class="blob blob-1"></div>
       <div class="blob blob-2"></div>
     </div>
     <div class="container">
-      <p class="page-tag reveal">Tentang Saya</p>
+      <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(37,99,235,0.1);border:1px solid rgba(37,99,235,0.2);border-radius:50px;padding:6px 16px;margin-bottom:20px;">
+        <span style="width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block;"></span>
+        <span style="font-size:0.78rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:1.5px;">Tentang Saya</span>
+      </div>
       <h1 class="page-title reveal">Kenali <span class="accent">Lebih Dekat</span></h1>
+      <p style="color:var(--muted);font-size:1.05rem;margin-top:12px;max-width:480px;" class="reveal">Mahasiswa Teknik Informatika yang antusias di bidang web & teknologi</p>
     </div>
   </section>
 
@@ -39,26 +46,236 @@
       <div class="about-grid">
         <div class="about-img-wrap reveal">
           <div class="about-avatar">
-            <svg viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg">
-              <rect width="300" height="350" rx="20" fill="var(--surface)"/>
-              <circle cx="150" cy="120" r="70" fill="var(--accent)" opacity="0.9"/>
-              <ellipse cx="150" cy="310" rx="100" ry="60" fill="var(--accent)" opacity="0.9"/>
-            </svg>
-            <div class="about-badge">✦ 3+ Tahun Exp</div>
+            <div style="position:relative; width:100%; max-width:350px; margin:0 auto;">
+              <img 
+                src="img/profile.jpg" 
+                alt="Foto Agief Vemas Afrivanzah" 
+                style="
+                  width: 100%;
+                  height: 420px;
+                  object-fit: cover;
+                  object-position: center top;
+                  border-radius: 20px;
+                  display: block;
+                  box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 40px rgba(37,99,235,0.2);
+                  border: 2px solid rgba(96,165,250,0.2);
+                "
+              />
+              <div class="about-badge">✦ Mahasiswa Aktif</div>
+            </div>
           </div>
         </div>
         <div class="about-text reveal">
-          <h2>Saya Alex Rizky,<br/><span class="accent">Designer & Developer</span></h2>
-          <p>Halo! Saya adalah seorang UI/UX Designer dan Front-End Developer yang berbasis di Jakarta. Saya memiliki passion yang besar dalam menciptakan produk digital yang tidak hanya terlihat cantik, tapi juga memberikan pengalaman yang bermakna bagi pengguna.</p>
-          <p>Dengan pengalaman lebih dari 3 tahun, saya telah bekerja dengan berbagai startup dan perusahaan untuk membangun antarmuka yang intuitif dan estetis. Saya percaya bahwa desain yang baik adalah perpaduan sempurna antara fungsi dan keindahan.</p>
+          <h2>Halo, saya <span class="accent">Agief Vemas Afrivanzah</span></h2>
+          <p>Saya merupakan mahasiswa Program Studi <strong style="color:var(--text-bright);">Teknik Informatika</strong> di <strong style="color:var(--text-bright);">Universitas Bengkulu</strong> yang saat ini sedang menempuh Semester 4. Saya memiliki minat yang besar dalam bidang teknologi, khususnya pada pengembangan web dan pemrograman.</p>
+          <p>Selain aktif dalam kegiatan akademik, saya juga terlibat dalam organisasi sebagai <strong style="color:var(--text-bright);">Anggota Divisi Dana & Usaha HIMATIF</strong>. Saya meyakini bahwa pengalaman organisasi memiliki peran penting dalam mengembangkan keterampilan soft skills yang mendukung kompetensi akademik.</p>
+
           <div class="about-info-grid">
-            <div><strong>Nama</strong><span>Alex Rizky</span></div>
-            <div><strong>Email</strong><span>alex@email.com</span></div>
-            <div><strong>Lokasi</strong><span>Jakarta, Indonesia</span></div>
-            <div><strong>Status</strong><span class="status-badge">✦ Available</span></div>
+            <div>
+              <strong>Nama</strong>
+              <span>Agief Vemas Afrivanzah</span>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <span>agiefgante@gmail.com</span>
+            </div>
+            <div>
+              <strong>Telepon</strong>
+              <span>08988650502</span>
+            </div>
+            <div>
+              <strong>Lokasi</strong>
+              <span>Bengkulu, Sukarami</span>
+            </div>
+            <div>
+              <strong>Tanggal Lahir</strong>
+              <span>20 Januari 2006</span>
+            </div>
+            <div>
+              <strong>Status</strong>
+              <span class="status-badge">✦ Aktif</span>
+            </div>
+            <div>
+              <strong>Universitas</strong>
+              <span>Universitas Bengkulu</span>
+            </div>
+            <div>
+              <strong>Program Studi</strong>
+              <span>Teknik Informatika</span>
+            </div>
           </div>
-          <a href="contact.html" class="btn btn-primary">Hubungi Saya</a>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL MEDIA -->
+  <section class="section" style="background:var(--surface2);padding:4rem 0;">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Terhubung</p>
+        <h2 class="section-title">Social <span class="accent">Media</span></h2>
+        <p style="color:var(--muted);margin-top:10px;">Temukan dan ikuti saya di berbagai platform</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:760px;margin:0 auto;" class="reveal">
+
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/agiefo4?igsh=MTVxZzJoM3hjaWhvbw%3D%3D&utm_source=qr" target="_blank" rel="noopener" style="text-decoration:none;">
+          <div style="background:var(--surface2);border-radius:20px;padding:36px 20px 28px;text-align:center;
+                      box-shadow:0 10px 30px rgba(0,0,0,0.5);border:1px solid var(--border);
+                      transition:all 0.3s ease;"
+               onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 16px 40px rgba(0,0,0,0.6)';"
+               onmouseout="this.style.transform='';this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)';">
+            <div style="width:64px;height:64px;border-radius:18px;margin:0 auto 20px;
+                        background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+                        display:flex;align-items:center;justify-content:center;">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </div>
+            <p style="font-weight:700;font-size:1rem;color:var(--text-bright);margin-bottom:6px;">Instagram</p>
+            <p style="font-size:0.8rem;color:var(--accent);opacity:0.8;">@agiefo4</p>
+          </div>
+        </a>
+
+        <!-- Spotify -->
+        <a href="https://open.spotify.com/user/31vctoeafasotez2rixiifatp5za?si=1f1c51a982234835" target="_blank" rel="noopener" style="text-decoration:none;">
+          <div style="background:var(--surface2);border-radius:20px;padding:36px 20px 28px;text-align:center;
+                      box-shadow:0 10px 30px rgba(0,0,0,0.5);border:1px solid var(--border);
+                      transition:all 0.3s ease;"
+               onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 16px 40px rgba(0,0,0,0.6)';"
+               onmouseout="this.style.transform='';this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)';">
+            <div style="width:64px;height:64px;border-radius:18px;margin:0 auto 20px;
+                        background:#1DB954;display:flex;align-items:center;justify-content:center;">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+            </div>
+            <p style="font-weight:700;font-size:1rem;color:var(--text-bright);margin-bottom:6px;">Spotify</p>
+            <p style="font-size:0.8rem;color:#1DB954;opacity:0.8;">@Agip</p>
+          </div>
+        </a>
+
+        <!-- Discord -->
+        <a href="https://discord.com/users/1280885242051301376" target="_blank" rel="noopener" style="text-decoration:none;">
+          <div style="background:var(--surface2);border-radius:20px;padding:36px 20px 28px;text-align:center;
+                      box-shadow:0 10px 30px rgba(0,0,0,0.5);border:1px solid var(--border);
+                      transition:all 0.3s ease;"
+               onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 16px 40px rgba(0,0,0,0.6)';"
+               onmouseout="this.style.transform='';this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)';">
+            <div style="width:64px;height:64px;border-radius:18px;margin:0 auto 20px;
+                        background:#5865F2;display:flex;align-items:center;justify-content:center;">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028 14.09 14.09 0 001.226-1.994.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128c.126-.095.252-.19.372-.292a.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+            </div>
+            <p style="font-weight:700;font-size:1rem;color:var(--text-bright);margin-bottom:6px;">Discord</p>
+            <p style="font-size:0.8rem;color:#5865F2;opacity:0.8;">@ppoebe</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MINAT & HOBI -->
+  <section class="section" style="background: var(--surface);">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Aktivitas & Ketertarikan</p>
+        <h2 class="section-title">Minat & <span class="accent">Hobi</span></h2>
+      </div>
+
+      <div class="featured-grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;" id="interests-hobbies-grid">
+        <div class="project-card" style="cursor:default;">
+          <div class="card-body" style="text-align:center; padding: 40px 24px;">
+            <div style="font-size:3.5rem; margin-bottom:16px;">💻</div>
+            <h3>Frontend Development</h3>
+            <p>Membangun tampilan website yang interaktif dan modern menggunakan HTML, CSS, dan JavaScript.</p>
+          </div>
+        </div>
+        <div class="project-card" style="cursor:default;">
+          <div class="card-body" style="text-align:center; padding: 40px 24px;">
+            <div style="font-size:3.5rem; margin-bottom:16px;">🎨</div>
+            <h3>UI/UX Design</h3>
+            <p>Merancang antarmuka yang menarik dan mudah digunakan dengan fokus pada pengalaman pengguna.</p>
+          </div>
+        </div>
+        <div class="project-card" style="cursor:default;">
+          <div class="card-body" style="text-align:center; padding: 40px 24px;">
+            <div style="font-size:3.5rem; margin-bottom:16px;">🧩</div>
+            <h3>Problem Solving</h3>
+            <p>Menganalisis dan menyelesaikan permasalahan logika serta debugging dalam pengembangan aplikasi.</p>
+          </div>
+        </div>
+        <div class="project-card" style="cursor:default;">
+          <div class="card-body" style="text-align:center; padding: 40px 24px;">
+            <div style="font-size:3.5rem; margin-bottom:16px;">🔄</div>
+            <h3>Version Control (Git)</h3>
+            <p>Mengelola kode dan kolaborasi project menggunakan Git dan GitHub secara terstruktur.</p>
+          </div>
+        </div>
+        <div class="project-card" style="cursor:default;">
+          <div class="card-body" style="text-align:center; padding: 40px 24px;">
+            <div style="font-size:3.5rem; margin-bottom:16px;">⚽</div>
+            <h3>Bermain Bola</h3>
+            <p>Sepak bola adalah cara saya melepas stres dan membangun kerja sama tim di luar akademis.</p>
+          </div>
+        </div>
+        <div class="project-card" style="cursor:default;">
+          <div class="card-body" style="text-align:center; padding: 40px 24px;">
+            <div style="font-size:3.5rem; margin-bottom:16px;">📚</div>
+            <h3>Membaca Manhwa/Komik</h3>
+            <p>Menikmati cerita visual yang menghibur dan menginspirasi imajinasi di waktu santai.</p>
+          </div>
+        </div>
+        <div class="project-card" style="cursor:default;">
+          <div class="card-body" style="text-align:center; padding: 40px 24px;">
+            <div style="font-size:3.5rem; margin-bottom:16px;">📸</div>
+            <h3>Fotografi</h3>
+            <p>Mengabadikan momen dan keindahan sekitar melalui lensa kamera sebagai ekspresi diri.</p>
+          </div>
+        </div>
+        <div class="project-card" style="cursor:default;">
+          <div class="card-body" style="text-align:center; padding: 40px 24px;">
+            <div style="font-size:3.5rem; margin-bottom:16px;">🌅</div>
+            <h3>Dokumentasi Alam</h3>
+            <p>Mendokumentasikan keindahan Sunset, Langit, dan Bulan sebagai kreativitas visual.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section class="section" style="background: var(--surface2); padding: 5rem 0;">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Prinsip</p>
+        <h2 class="section-title">Pendekatan <span class="accent">Belajar</span></h2>
+        <p style="color:var(--muted);margin-top:10px;max-width:550px;margin-left:auto;margin-right:auto;">Setiap hal yang saya pelajari memiliki tujuan yang jelas untuk bisa terus berkembang dan relevan di dunia teknologi.</p>
+      </div>
+      
+      <div class="reveal" style="max-width: 800px; margin: 4rem auto 0; display: flex; flex-direction: column; gap: 2.5rem;">
+        
+        <div style="display: flex; gap: 2rem; align-items: flex-start; padding-bottom: 2.5rem; border-bottom: 1px solid var(--border);">
+          <div style="font-size: 4.5rem; font-weight: 800; color: var(--accent); opacity: 0.15; line-height: 0.8; font-family: 'Outfit', sans-serif;">01</div>
+          <div>
+            <h3 style="font-size: 1.5rem; margin-bottom: 0.8rem; color: var(--text-bright);">Konsisten Belajar</h3>
+            <p style="color: var(--muted); font-size: 1.05rem; line-height: 1.7;">Meluangkan waktu setiap hari untuk mengeksplorasi hal baru dan memperdalam wawasan di bidang pengembangan web secara terstruktur.</p>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 2rem; align-items: flex-start; padding-bottom: 2.5rem; border-bottom: 1px solid var(--border);">
+          <div style="font-size: 4.5rem; font-weight: 800; color: var(--accent2); opacity: 0.15; line-height: 0.8; font-family: 'Outfit', sans-serif;">02</div>
+          <div>
+            <h3 style="font-size: 1.5rem; margin-bottom: 0.8rem; color: var(--text-bright);">Aktif Berorganisasi</h3>
+            <p style="color: var(--muted); font-size: 1.05rem; line-height: 1.7;">Terlibat aktif dalam kegiatan himpunan untuk membangun keterampilan kepemimpinan, mempertajam kerja sama tim, dan memperluas jaringan.</p>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 2rem; align-items: flex-start;">
+          <div style="font-size: 4.5rem; font-weight: 800; color: var(--accent3); opacity: 0.15; line-height: 0.8; font-family: 'Outfit', sans-serif;">03</div>
+          <div>
+            <h3 style="font-size: 1.5rem; margin-bottom: 0.8rem; color: var(--text-bright);">Berani Mencoba</h3>
+            <p style="color: var(--muted); font-size: 1.05rem; line-height: 1.7;">Tidak pernah takut untuk keluar dari zona nyaman, mengambil berbagai tantangan baru, serta berani belajar dari setiap kesalahan.</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -68,106 +285,150 @@
     <div class="container">
       <div class="section-header">
         <p class="section-tag">Kemampuan</p>
-        <h2 class="section-title">Tech <span class="accent">Stack</span></h2>
+        <h2 class="section-title">Keahlian <span class="accent">Saya</span></h2>
       </div>
       <div class="skills-grid reveal">
         <div class="skill-category">
-          <h3>🎨 Design</h3>
+          <h3>💻 Teknis</h3>
           <div class="skill-list">
-            <div class="skill-item"><span>Figma</span><div class="skill-bar"><div style="width:90%"></div></div></div>
-            <div class="skill-item"><span>Adobe XD</span><div class="skill-bar"><div style="width:80%"></div></div></div>
-            <div class="skill-item"><span>Prototyping</span><div class="skill-bar"><div style="width:85%"></div></div></div>
-            <div class="skill-item"><span>Design System</span><div class="skill-bar"><div style="width:75%"></div></div></div>
+            <div class="skill-item">
+              <span>Coding Dasar</span>
+              <div class="skill-bar"><div style="width:80%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>HTML & CSS</span>
+              <div class="skill-bar"><div style="width:70%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>JavaScript Dasar</span>
+              <div class="skill-bar"><div style="width:25%"></div></div>
+            </div>
           </div>
         </div>
         <div class="skill-category">
-          <h3>💻 Development</h3>
+          <h3>🌍 Bahasa</h3>
           <div class="skill-list">
-            <div class="skill-item"><span>HTML & CSS</span><div class="skill-bar"><div style="width:95%"></div></div></div>
-            <div class="skill-item"><span>JavaScript</span><div class="skill-bar"><div style="width:85%"></div></div></div>
-            <div class="skill-item"><span>React.js</span><div class="skill-bar"><div style="width:80%"></div></div></div>
-            <div class="skill-item"><span>Node.js</span><div class="skill-bar"><div style="width:65%"></div></div></div>
+            <div class="skill-item">
+              <span>Bahasa Indonesia</span>
+              <div class="skill-bar"><div style="width:95%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>Bahasa Inggris</span>
+              <div class="skill-bar"><div style="width:90%"></div></div>
+            </div>
           </div>
         </div>
         <div class="skill-category">
-          <h3>🛠️ Tools</h3>
+          <h3>🤝 Soft Skills</h3>
           <div class="skill-list">
-            <div class="skill-item"><span>Git & GitHub</span><div class="skill-bar"><div style="width:88%"></div></div></div>
-            <div class="skill-item"><span>VS Code</span><div class="skill-bar"><div style="width:95%"></div></div></div>
-            <div class="skill-item"><span>Notion</span><div class="skill-bar"><div style="width:80%"></div></div></div>
-            <div class="skill-item"><span>Vercel / Netlify</span><div class="skill-bar"><div style="width:75%"></div></div></div>
+            <div class="skill-item">
+              <span>Kerja Tim</span>
+              <div class="skill-bar"><div style="width:80%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>Komunikasi</span>
+              <div class="skill-bar"><div style="width:70%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>Problem Solving</span>
+              <div class="skill-bar"><div style="width:60%"></div></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
+
   <!-- EDUCATION & EXPERIENCE -->
-  <section class="section timeline-section">
+  <section class="section timeline-section" style="background: var(--surface);">
     <div class="container">
       <div class="timeline-cols">
         <div>
-          <div class="section-header">
+          <div class="section-header" style="text-align:left;">
             <p class="section-tag">Pendidikan</p>
             <h2 class="section-title">🎓 Edu<span class="accent">kasi</span></h2>
           </div>
           <div class="timeline reveal">
             <div class="timeline-item">
-              <div class="tl-dot"></div>
               <div class="tl-content">
-                <span class="tl-year">2020 – 2024</span>
+                <span class="tl-year">2024 – Sekarang</span>
                 <h4>S1 Teknik Informatika</h4>
-                <p>Universitas Indonesia, Depok</p>
+                <p>Universitas Bengkulu</p>
               </div>
             </div>
             <div class="timeline-item">
-              <div class="tl-dot"></div>
+              <div class="tl-dot accent-dot"></div>
               <div class="tl-content">
-                <span class="tl-year">2023</span>
-                <h4>UI/UX Design Bootcamp</h4>
-                <p>Dicoding Academy</p>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <div class="tl-dot"></div>
-              <div class="tl-content">
-                <span class="tl-year">2022</span>
-                <h4>Front-End Web Development</h4>
-                <p>Bangkit Academy by Google</p>
+                <span class="tl-year">Jul 2021 – Agt 2024</span>
+                <h4>SMA</h4>
+                <p>SMAIT Iqra, Bengkulu</p>
               </div>
             </div>
           </div>
         </div>
         <div>
-          <div class="section-header">
-            <p class="section-tag">Pengalaman</p>
-            <h2 class="section-title">💼 Kari<span class="accent">er</span></h2>
+          <div class="section-header" style="text-align:left;">
+            <p class="section-tag">Pengalaman Organisasi</p>
+            <h2 class="section-title">🏛️ Orga<span class="accent">nisasi</span></h2>
           </div>
           <div class="timeline reveal">
             <div class="timeline-item">
-              <div class="tl-dot accent-dot"></div>
               <div class="tl-content">
-                <span class="tl-year">2024 – Sekarang</span>
-                <h4>UI/UX Designer</h4>
-                <p>Startup FinTech Jakarta</p>
+                <span class="tl-year">Anggota Aktif</span>
+                <h4>Anggota Dinas Sosmas</h4>
+                <p>BEM FT (Badan Eksekutif Mahasiswa Fakultas Teknik)</p>
               </div>
             </div>
             <div class="timeline-item">
               <div class="tl-dot accent-dot"></div>
               <div class="tl-content">
-                <span class="tl-year">2023 – 2024</span>
-                <h4>Front-End Developer Intern</h4>
-                <p>PT. Digital Nusantara</p>
+                <span class="tl-year">Anggota Aktif</span>
+                <h4>Anggota Divisi Bidang Dana & Usaha</h4>
+                <p>HIMATIF — Himpunan Mahasiswa Teknik Informatika</p>
               </div>
             </div>
             <div class="timeline-item">
               <div class="tl-dot accent-dot"></div>
               <div class="tl-content">
-                <span class="tl-year">2022 – 2023</span>
-                <h4>Freelance Web Designer</h4>
-                <p>Independent / Remote</p>
+                <span class="tl-year">Pengalaman Kegiatan</span>
+                <h4>Anggota Divisi PDD Chrome XI</h4>
+                <p>Divisi Publikasi, Dokumentasi & Dekorasi</p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERSONAL INFO DETAIL -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Detail Pribadi</p>
+        <h2 class="section-title">Info <span class="accent">Lengkap</span></h2>
+      </div>
+      <div class="stats-grid" style="grid-template-columns: repeat(3, 1fr); gap: 24px;" id="personal-info">
+        <div class="project-card" style="cursor:default;">
+          <div class="card-body">
+            <div style="font-size:2rem; margin-bottom:12px;">📍 </div>
+            <h3 style="font-size:1rem; color:var(--muted); margin-bottom:8px;">Alamat</h3>
+            <p style="color:var(--text-bright); font-weight:500;">Bengkulu, Indonesia</p>
+          </div>
+        </div>
+        <div class="project-card" style="cursor:default;">
+          <div class="card-body">
+            <div style="font-size:2rem; margin-bottom:12px;">🎂</div>
+            <h3 style="font-size:1rem; color:var(--muted); margin-bottom:8px;">Tanggal Lahir</h3>
+            <p style="color:var(--text-bright); font-weight:500;">20 Januari 2006</p>
+          </div>
+        </div>
+        <div class="project-card" style="cursor:default;">
+          <div class="card-body">
+            <div style="font-size:2rem; margin-bottom:12px;">🏥</div>
+            <h3 style="font-size:1rem; color:var(--muted); margin-bottom:8px;">Tempat Lahir</h3>
+            <p style="color:var(--text-bright); font-weight:500;">Kota Bengkulu</p>
           </div>
         </div>
       </div>
@@ -178,29 +439,67 @@
   <section class="cta-section">
     <div class="container">
       <div class="cta-box">
-        <h2>Tertarik bekerja sama?</h2>
-        <p>Download CV saya atau langsung hubungi via email.</p>
+        <h2>Tertarik berkolaborasi?</h2>
+        <p>Saya terbuka untuk diskusi, proyek bersama, atau sekadar berbagi pengalaman.</p>
         <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
-          <a href="#" class="btn btn-primary" download>Download CV ↓</a>
-          <a href="contact.html" class="btn btn-ghost">Hubungi Saya ✉</a>
+          <a href="contact.html" class="btn btn-primary" id="cta-about">Hubungi Saya ✉️</a>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer class="footer">
-    <div class="container">
-      <div class="footer-inner">
-        <span class="nav-logo">AR<span class="dot">.</span></span>
-        <p>© 2025 Alex Rizky. Dibuat dengan ❤️ di Jakarta.</p>
-        <div class="social-links">
-          <a href="#" aria-label="GitHub">GH</a>
-          <a href="#" aria-label="LinkedIn">LI</a>
-          <a href="#" aria-label="Instagram">IG</a>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="nav-logo">AV<span class="dot">.</span></a>
+            <p class="footer-desc">Membangun pengalaman web yang modern, interaktif, dan berkesan. Siap berkolaborasi untuk proyek impianmu.</p>
+          </div>
+          <div class="footer-links-group">
+            <h4 class="footer-title">Jelajahi</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="portofolio.html">Portfolio</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-group">
+            <h4 class="footer-title">Hubungi Saya</h4>
+            <ul class="footer-links">
+              <li><a href="contact.html">Contact Form</a></li>
+              <li><a href="mailto:agiefgante@gmail.com">agiefgante@gmail.com</a></li>
+              <li><a href="tel:08988650502">0898 8650 502</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h4 class="footer-title">Socials</h4>
+            <div class="social-icons">
+              <a href="https://instagram.com/agiefo4" target="_blank" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+              <a href="https://github.com/AgiefVemas" target="_blank" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+              <a href="https://open.spotify.com/user/31vctoeafasotez2rixiifatp5za" target="_blank" aria-label="Spotify"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.84.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.6.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-inner">
+          <p>&copy; 2025 Agief Vemas Afrivanzah. All rights reserved.</p>
+          <button class="back-to-top" aria-label="Back to top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+          </button>
         </div>
       </div>
     </div>
   </footer>
+  <!-- Hidden Love Button to Special Section -->
+  <a href="special.html" class="secret-love-btn" aria-label="A Hidden Place">
+    🤍 
+  </a>
   <script src="main.js"></script>
 </body>
 </html>
+

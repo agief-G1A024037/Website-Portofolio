@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio — Alex Rizky</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <title>Portfolio — Agief Vemas Afrivanzah</title>
+  <meta name="description" content="Karya dan proyek dari Agief Vemas Afrivanzah — web development, organisasi, dan kegiatan teknologi." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
 </head>
 <body>
   <nav class="nav" id="nav">
-    <a href="index.html" class="nav-logo">AR<span class="dot">.</span></a>
+    <a href="index.html" class="nav-logo">AV<span class="dot">.</span></a>
     <button class="hamburger" id="hamburger" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links" id="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="portofolio.html" class="active">Portfolio</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
@@ -27,172 +27,131 @@
       <div class="blob blob-2"></div>
     </div>
     <div class="container">
-      <p class="page-tag reveal">Karya Saya</p>
-      <h1 class="page-title reveal">Semua <span class="accent">Proyek</span></h1>
+      <h1 class="page-title reveal">Koleksi <span class="gradient-text">Project</span> & Karya</h1>
+      <p class="hero-subtitle reveal">Daftar lengkap proyek, organisasi, dan kegiatan yang pernah saya ikuti.</p>
     </div>
   </section>
 
-  <!-- FILTER -->
+  <!-- FILTER + PORTFOLIO -->
   <section class="section portfolio-section">
     <div class="container">
-      <div class="filter-bar reveal">
-        <button class="filter-btn active" data-filter="all">Semua</button>
-        <button class="filter-btn" data-filter="uiux">UI/UX</button>
-        <button class="filter-btn" data-filter="web">Web Dev</button>
-        <button class="filter-btn" data-filter="mobile">Mobile</button>
-        <button class="filter-btn" data-filter="branding">Branding</button>
-      </div>
+
 
       <div class="portfolio-grid reveal" id="portfolio-grid">
-        <!-- Project 1 -->
-        <div class="port-card" data-cat="uiux web">
-          <div class="port-img" style="background:linear-gradient(135deg,#1a1a2e,#16213e)">
-            <div class="card-mockup small">
-              <div class="browser-bar"><span></span><span></span><span></span></div>
-              <div class="browser-content">
-                <div class="mock-nav"></div>
-                <div class="mock-hero" style="height:40px"></div>
-                <div class="mock-cards"><div></div><div></div><div></div></div>
-              </div>
-            </div>
-            <div class="port-overlay">
-              <a href="#" class="port-link">Lihat Proyek →</a>
-            </div>
-          </div>
-          <div class="port-info">
-            <div class="card-tags"><span>UI/UX</span><span>React</span></div>
-            <h3>Dashboard Analytics</h3>
-            <p>Platform analitik real-time untuk bisnis e-commerce dengan chart interaktif dan dark mode.</p>
-          </div>
-        </div>
 
-        <!-- Project 2 -->
-        <div class="port-card" data-cat="mobile uiux">
-          <div class="port-img" style="background:linear-gradient(135deg,#0f2027,#2c5364)">
-            <div class="card-icon large-icon">📱</div>
-            <div class="port-overlay">
-              <a href="#" class="port-link">Lihat Proyek →</a>
-            </div>
+        <!-- Project 1: Web Portfolio -->
+        <a href="https://github.com/AgiefVemas/PWEB-PORTO" target="_blank" class="port-card" data-cat="project">
+          <div class="port-img" style="overflow: hidden; display: flex; align-items: center; justify-content: center; background: var(--surface2);">
+            <img src="img/CardPorto.png" alt="Project Website PWEB Portofolio" style="width: 100%; height: 100%; object-fit: cover; object-position: center bottom;" />
           </div>
           <div class="port-info">
-            <div class="card-tags"><span>Mobile</span><span>Figma</span></div>
-            <h3>FoodieGo App</h3>
-            <p>Desain aplikasi pesan makanan dengan flow yang disederhanakan hingga checkout hanya 3 langkah.</p>
+            <div class="card-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <h3>Project Website PWEB Portofolio</h3>
+            <p>Website portofolio pribadi yang dibangun dari nol menggunakan HTML, CSS, dan JavaScript. Menampilkan informasi diri, keahlian, dan pengalaman secara profesional.</p>
           </div>
-        </div>
+        </a>
 
-        <!-- Project 3 -->
-        <div class="port-card" data-cat="web">
-          <div class="port-img" style="background:linear-gradient(135deg,#1d0b3f,#3d1a78)">
-            <div class="card-icon large-icon">🛒</div>
-            <div class="port-overlay">
-              <a href="#" class="port-link">Lihat Proyek →</a>
-            </div>
+        <!-- Project 2: HIMATIF STORE -->
+        <a href="https://github.com/YusufArrayyan/HIMATIF_STORE" target="_blank" class="port-card" data-cat="project">
+          <div class="port-img" style="overflow: hidden; display: flex; align-items: center; justify-content: center; background: var(--surface2);">
+            <img src="img/porto_webdesign.png" alt="Project Website HIMATIF Store" style="width: 100%; height: 100%; object-fit: cover; object-position: center bottom;" />
           </div>
           <div class="port-info">
-            <div class="card-tags"><span>E-Commerce</span><span>Next.js</span></div>
-            <h3>ShopNest</h3>
-            <p>Toko online modern dengan fitur AI recommendation dan sistem pembayaran terintegrasi.</p>
+            <div class="card-tags"><span>E-Commerce</span><span>HIMATIF</span></div>
+            <h3>Project Website HIMATIF Store</h3>
+            <p>Platform e-commerce resmi untuk Himpunan Mahasiswa Teknik Informatika yang menyediakan merchandise dan kebutuhan mahasiswa informatika.</p>
           </div>
-        </div>
+        </a>
 
-        <!-- Project 4 -->
-        <div class="port-card" data-cat="branding">
-          <div class="port-img" style="background:linear-gradient(135deg,#3d0000,#8b0000)">
-            <div class="card-icon large-icon">✦</div>
-            <div class="port-overlay">
-              <a href="#" class="port-link">Lihat Proyek →</a>
-            </div>
+        <!-- Project 3: GUIDE-HIKE -->
+        <a href="https://github.com/ALPHARIET/guidehike-id" target="_blank" class="port-card" data-cat="project">
+          <div class="port-img" style="overflow: hidden; display: flex; align-items: center; justify-content: center; background: var(--surface2);">
+            <img src="img/Cuplikan%20layar%202026-04-28%20005021.png" alt="Project Website Travelling GUIDE-HIKE" style="width: 100%; height: 100%; object-fit: cover; object-position: center bottom;" />
           </div>
           <div class="port-info">
-            <div class="card-tags"><span>Branding</span><span>Logo</span></div>
-            <h3>Kopi Nusantara</h3>
-            <p>Identitas visual lengkap untuk kedai kopi lokal, termasuk logo, packaging, dan brand guideline.</p>
+            <div class="card-tags"><span>Travel</span><span>Guide</span></div>
+            <h3>Project Website Travelling GUIDE-HIKE</h3>
+            <p>Website panduan pendakian gunung yang memberikan informasi rute, perlengkapan, dan tips keselamatan bagi para pendaki.</p>
           </div>
-        </div>
+        </a>
 
-        <!-- Project 5 -->
-        <div class="port-card" data-cat="web uiux">
-          <div class="port-img" style="background:linear-gradient(135deg,#003d2d,#006b4f)">
-            <div class="card-icon large-icon">💚</div>
-            <div class="port-overlay">
-              <a href="#" class="port-link">Lihat Proyek →</a>
-            </div>
-          </div>
-          <div class="port-info">
-            <div class="card-tags"><span>Landing Page</span><span>HTML/CSS</span></div>
-            <h3>EcoLife Landing</h3>
-            <p>Landing page untuk startup ramah lingkungan dengan animasi scroll yang memukau.</p>
-          </div>
-        </div>
-
-        <!-- Project 6 -->
-        <div class="port-card" data-cat="mobile">
-          <div class="port-img" style="background:linear-gradient(135deg,#1a0533,#6a0dad)">
-            <div class="card-icon large-icon">🎵</div>
-            <div class="port-overlay">
-              <a href="#" class="port-link">Lihat Proyek →</a>
-            </div>
-          </div>
-          <div class="port-info">
-            <div class="card-tags"><span>Mobile</span><span>UI/UX</span></div>
-            <h3>MusicMate App</h3>
-            <p>Aplikasi streaming musik dengan fitur kolaborasi playlist dan concert finder berbasis lokasi.</p>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- TESTIMONIALS -->
-  <section class="section testimonial-section">
+  <!-- PERSONAL STATEMENT -->
+  <section class="section" style="background: var(--surface);">
     <div class="container">
       <div class="section-header">
-        <p class="section-tag">Testimoni</p>
-        <h2 class="section-title">Kata <span class="accent">Mereka</span></h2>
+        <p class="section-tag">Perjalanan</p>
+        <h2 class="section-title">Motivasi <span class="accent">Saya</span></h2>
       </div>
-      <div class="testimonial-grid reveal">
-        <div class="testimonial-card">
-          <div class="quote-mark">"</div>
-          <p>Alex adalah designer terbaik yang pernah kami hire. Hasil kerjanya melebihi ekspektasi dan selalu tepat waktu.</p>
-          <div class="testimonial-author">
-            <div class="author-avatar">RB</div>
-            <div><strong>Rina Budiyanti</strong><span>CEO, StartupFinTech</span></div>
-          </div>
-        </div>
-        <div class="testimonial-card">
-          <div class="quote-mark">"</div>
-          <p>Website yang dibuatkan Alex sangat responsif dan terlihat profesional. Klien kami sangat puas!</p>
-          <div class="testimonial-author">
-            <div class="author-avatar">DP</div>
-            <div><strong>Dimas Pratama</strong><span>Project Manager, Digital Agency</span></div>
-          </div>
-        </div>
-        <div class="testimonial-card">
-          <div class="quote-mark">"</div>
-          <p>Komunikasi yang sangat baik dan hasil yang luar biasa. Pasti akan bekerja sama lagi di masa depan.</p>
-          <div class="testimonial-author">
-            <div class="author-avatar">SA</div>
-            <div><strong>Siti Aisyah</strong><span>Founder, EcoLife Brand</span></div>
-          </div>
-        </div>
+      <div class="cta-box" style="max-width:800px; margin: 0 auto;">
+        <p style="font-size:1.2rem; line-height:1.9; color:var(--text); position:relative; z-index:1;">
+          "Saya percaya bahwa teknologi adalah alat yang bisa mengubah dunia menjadi lebih baik.
+          Dengan semangat belajar yang tinggi dan pengalaman berorganisasi, saya siap untuk terus
+          berkembang dan memberikan kontribusi nyata di bidang teknologi informasi."
+        </p>
+        <p style="margin-top:16px; color:var(--accent); font-weight:600; position:relative; z-index:1;">— Agief Vemas Afrivanzah</p>
       </div>
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer class="footer">
-    <div class="container">
-      <div class="footer-inner">
-        <span class="nav-logo">AR<span class="dot">.</span></span>
-        <p>© 2025 Alex Rizky. Dibuat dengan ❤️ di Jakarta.</p>
-        <div class="social-links">
-          <a href="#" aria-label="GitHub">GH</a>
-          <a href="#" aria-label="LinkedIn">LI</a>
-          <a href="#" aria-label="Instagram">IG</a>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="nav-logo">AV<span class="dot">.</span></a>
+            <p class="footer-desc">Membangun pengalaman web yang modern, interaktif, dan berkesan. Siap berkolaborasi untuk proyek impianmu.</p>
+          </div>
+          <div class="footer-links-group">
+            <h4 class="footer-title">Jelajahi</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="portofolio.html">Portfolio</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-group">
+            <h4 class="footer-title">Hubungi Saya</h4>
+            <ul class="footer-links">
+              <li><a href="contact.html">Contact Form</a></li>
+              <li><a href="mailto:agiefgante@gmail.com">agiefgante@gmail.com</a></li>
+              <li><a href="tel:08988650502">0898 8650 502</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h4 class="footer-title">Socials</h4>
+            <div class="social-icons">
+              <a href="https://instagram.com/agiefo4" target="_blank" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+              <a href="https://github.com/AgiefVemas" target="_blank" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+              <a href="https://open.spotify.com/user/31vctoeafasotez2rixiifatp5za" target="_blank" aria-label="Spotify"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.84.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.6.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-inner">
+          <p>&copy; 2025 Agief Vemas Afrivanzah. All rights reserved.</p>
+          <button class="back-to-top" aria-label="Back to top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+          </button>
         </div>
       </div>
     </div>
   </footer>
+  <!-- Hidden Love Button to Special Section -->
+  <a href="special.html" class="secret-love-btn" aria-label="A Hidden Place">
+    🤍 
+  </a>
   <script src="main.js"></script>
 </body>
 </html>
+
+
+
+
